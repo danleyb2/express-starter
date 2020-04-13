@@ -1,0 +1,42 @@
+{
+  "name": "express-starter",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "10.13.0"
+  },
+  "scripts": {
+    "start": "node -r dotenv/config ./bin/www",
+    "devstart": "nodemon -r dotenv/config ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:danleyb2/express-starter.git"
+  },
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "async": "^2.6.1",
+    "body-parser": "1.18.3",
+    "connect-mongo": "2.0.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "date-fns": "^1.30.1",
+    "debug": "~2.6.9",
+    "dotenv": "^6.2.0",
+    "express": "~4.16.4",
+    "express-session": "1.15.6",
+    "http-errors": "~1.6.2",
+    "mongoose": "5.4.1",
+    "morgan": "~1.9.0",
+    "nodemailer": "^5.0.0",
+    "passport": "0.4.0",
+    "passport-local": "1.0.0",
+    "passport-local-mongoose": "^5.0.1",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

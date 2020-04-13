@@ -3,7 +3,7 @@
 
 
 # Features
-- mongodb v
+- mongodb v3.2
 - express v 
 - node v 
 - passport
